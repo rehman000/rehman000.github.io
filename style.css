@@ -152,7 +152,7 @@ section {
 }
 
 
-#Main_Heading{
+#Main_Heading {
 	display: block;
 	font-size: 5rem;
 	text-transform: uppercase;
@@ -166,6 +166,8 @@ section {
 	max-width: 100%;
 	min-width: 10%
 }
+
+
 
 #About_Heading {
 	display: block;
@@ -229,11 +231,39 @@ section {
 	transform: translate(-50%, 30%);
 	top: 50%; 
 	left: 50%;
-	
-	padding: 3rem 6rem;
+	padding: 3rem;
 	width: 70%;
 	height: 50%;
 	text-align: center;
+}
+
+#Last_Heading {
+	display: block;
+	font-size: 5rem;
+	letter-spacing: 2px;
+	border: 3px solid #fff;
+	position: absolute;
+	top: 30%; 
+	left: 50%;
+	transform: translate(-50%, -100%);
+	padding: 5rem 10rem;
+	max-width: 100%;
+	min-width: 10%	
+}
+
+
+#Context {
+	display: block;
+	font-size: 5rem;
+	letter-spacing: 2px;
+	border: 3px solid #fff;
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+	transform: translate(-50%, -10%);
+	padding: 5rem 10rem;
+	max-width: 100%;
+	min-width: 10%	
 }
 
 #footer {
@@ -245,8 +275,7 @@ section {
 	transform: translate(-50%, 100%);
 	top: 50%;
 	left: 50%;
-
-	padding: 3rem 6rem;
+	padding: 4rem 6rem;
 	width: 50%;
 	height: 50%;
 	text-align: center;
