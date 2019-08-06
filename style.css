@@ -1,5 +1,4 @@
 @import "https:fonts.googleapis.com/css?family=Lato:100";
-
 /* HTML -- Elements tags  */
 
 
@@ -14,8 +13,9 @@ p {
 	padding: 2rem;
 	color: white;
 	position: relative;
-	border: 3px solid #fff;
+	border: 3px solid green;
 	text-align: center;
+	width: 70%;
 	max-width: 100%;
 	min-width: 10%;
 }
@@ -231,37 +231,41 @@ section {
 	transform: translate(-50%, 30%);
 	top: 50%; 
 	left: 50%;
-	padding: 3rem;
-	width: 70%;
+	padding: 2rem;
+	width: 50%;
 	height: 50%;
 	text-align: center;
 }
 
 #Last_Heading {
 	display: block;
-	font-size: 5rem;
+	font-size: 3rem;
 	letter-spacing: 2px;
 	border: 3px solid #fff;
 	position: absolute;
-	top: 30%; 
+	top: 40%; 
 	left: 50%;
 	transform: translate(-50%, -100%);
 	padding: 5rem 10rem;
+	width: 70%;
 	max-width: 100%;
-	min-width: 10%	
+	min-width: 10%;	
+	text-align: center;
+	max-height: 100%;
 }
 
 
 #Context {
 	display: block;
-	font-size: 5rem;
+	font-size: 3rem;
 	letter-spacing: 2px;
 	border: 3px solid #fff;
 	position: absolute;
 	top: 50%; 
 	left: 50%;
 	transform: translate(-50%, -10%);
-	padding: 5rem 10rem;
+	padding: 2rem;
+	width: 70%;
 	max-width: 100%;
 	min-width: 10%	
 }
