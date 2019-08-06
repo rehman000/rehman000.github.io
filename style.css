@@ -2,17 +2,6 @@
 
 /* HTML -- Elements tags  */
 
-nav {
-	display: block;
-	text-align: left;
-	padding: 2rem 2rem;
-	border: 3px solid #fff;
-	color: white;
-	font-family: Arial, sans-serif;
-	font-size: 20px;
-	background-color: white;
-
-}
 
 
 p {
@@ -28,7 +17,7 @@ p {
 	border: 3px solid #fff;
 	text-align: center;
 	max-width: 100%;
-	min-width: 10%
+	min-width: 10%;
 }
 
 /*
@@ -103,7 +92,6 @@ h3 {
 	transform: translate(-50%, 100%);
 	top: 50%;
 	left: 50%;
-
 	padding: 3rem 6rem;
 	width: 50%;
 	height: 50%;
@@ -243,7 +231,7 @@ section {
 	left: 50%;
 	
 	padding: 3rem 6rem;
-	width: 50%;
+	width: 70%;
 	height: 50%;
 	text-align: center;
 }
@@ -295,5 +283,17 @@ section {
 	letter-spacing: 3px;
 	text-align: center;
 	transform: translate(-50%, 30%);
+}
+
+.Nav {
+	display: block;
+	border: 3px solid #fff;
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	padding: 15px;
+	text-align: center;
+	background-color: white;
+
 }
 
