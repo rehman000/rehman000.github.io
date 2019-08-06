@@ -228,8 +228,8 @@ section {
 
 #footer {
 	display: block;
-	font-size: 1rem;
-	font-family: Arial;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
 	position: relative;
 	color: white;
 	transform: translate(-50%, 100%);
@@ -251,6 +251,7 @@ section {
 	font-family: "Lato", Arial, sans-serif;
 	font-color: white;
 	font-size: 20px;
+	letter-spacing: 3px;
 	text-align: center;
 	transform: translate(-50%, 35%);
 
@@ -260,6 +261,7 @@ section {
 	font-family: "Lato", Arial, sans-serif;
 	font-color: white;
 	font-size: 20px;
+	letter-spacing: 3px;
 	text-align: center;
 	transform: translate(-50%, 30%);
 }
@@ -268,6 +270,7 @@ section {
 	font-family: "Lato", Arial, sans-serif;
 	font-color: white;
 	font-size: 20px;
+	letter-spacing: 3px;
 	text-align: center;
 	transform: translate(-50%, 30%);
 }
