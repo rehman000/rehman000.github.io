@@ -15,24 +15,22 @@
 
 	<body>
 
-		<section>
 		
-			<nav>
-				<ul>
-					<li><a href="#About">About Me</a></li>
-					<li><a href="#Projects">Personal Projects</a></li>
-					<li><a href="#Interests">Interests</a></li>
-					<li><a href="#Contact">Contact</a></li>
-				</ul>
-			</nav>
 
-
+		<section>
 			<div id="Welcome">
 				<h1 id = "Main_Heading"> Welcome! </h1>
 			</div>
-
 		</section>
 
+		<nav>
+			<a href="#About"> About Me </a>
+			<a href="#Projects"> Projects </a>
+			<a href="#Skills"> Skills</a>
+			<a href="#Interests"> Interests </a>
+			<a href="#Contact"> Contact Info</a>
+		</nav>
+		
 		<div id="About">
 			<span>
 				<h2 id="About_Heading"> About Me: </h2>
@@ -41,7 +39,7 @@
 					<img src="./Passport Photo.png" width="300" height="300" alt="Profile Photo" id="Profile_Img">
 				</div>
 
-				<p> I'm an undergraduate student at The City College of New York majoring in Computer Science. I have Experience in C, C++, C#, Java, and Python. I'm currently a member of the <a href="https://cunytechprep.nyc/">CUNY Tech Prep</a> Full Stack program cohort 5. The relevant courses that I have completed include Data Structures, Algorithms, and Software Design Lab.</p>
+				<p> I'm an undergraduate student at The City College of New York majoring in Computer Science, and graduating in Spring 2021. I am currently looking for an internship in Fall 2019, Spring 2020, or Summer 2020. I have experience in C, C++, C#, Java, and Python. I'm currently a member of the <a href="https://cunytechprep.nyc/">CUNY Tech Prep</a> Full Stack program cohort 5. The relevant courses that I have completed include Data Structures, Algorithms, and Software Design Lab.</p>
 
 			</span>
 		</div>
@@ -52,56 +50,78 @@
 		<div id="Projects">
 			<h2 id="Project_Heading"> Personal Projects: </h2>
 
-			<h3 class="C-plus-plus"> C++ Particle Fire Explosion: </h3>
+			<div>
+				<h3 class="C-plus-plus"> <a href="https://github.com/rehman000/C-plus-plus-Projects/tree/master/Particle%20Motion/Particle%20Motion">C++ Particle Fire Explosion:</a></h3>
 			
-			<img src="./ParticleExplosionSDL.png">
+				<a href="https://github.com/rehman000/C-plus-plus-Projects/tree/master/Particle%20Motion/Particle%20Motion"><img src="./ParticleExplosionSDL.png"></a>
 
-			<video  controls>
-				<source src="Particle_Motion_SDL2.mp4" type="video/mp4">
-			</video>
+				<video  controls>
+					<source src="Particle_Motion_SDL2.mp4" type="video/mp4">
+				</video>
 
-			<p> The particle fire explosion is a graphical program made using C++, and the <a href="https://www.libsdl.org/index.php">SDL 2.0</a> library. The particles move in a circular pattern as the background and particle colors change over time. </p>
-	
-			<h3 class="Java"> Java FX GUI projects: </h3>
+				<p> The particle fire explosion is a Unix executable graphical program made using C++, and the <a href="https://www.libsdl.org/index.php">SDL 2.0</a> Library. The particles move in a circular <a href="https://en.wikipedia.org/wiki/Sine_wave">sinusoidal</a> pattern as the background, halo effect, and particle colors change over time.</p>
+			</div>
+
+			<div>
+				<h3 class="Java"><a href="https://github.com/rehman000/JavaFX-Projects">Java FX GUI projects: </a></h3>
 				
-			<img src="./JavaFX-GUI-TipCalculator.png">
+				<a href="https://github.com/rehman000/JavaFX-Projects/tree/master/Prime_Finder_Rehman_Arshad/src/sample"><img src="JavaFX-GUI-Prime-Finder.png"></a> 
 
-			<p> This program is a tip calculator, with a graphical user interface (GUI) made using JavaFX. The Textfield on the top is editable so the user can enter an Amount, the Textfields on the bottom for the Tip, and the Total are not editable. All the user has to do is enter an amount, set the tip percentage by moving the slider and hit the calculate button.</p>
+				<a href="https://github.com/rehman000/JavaFX-Projects/tree/master/JavaFXTipCalulator"><img src="./JavaFX-GUI-TipCalculator.png" alt="JavaFX Tip calculator"></a>
 
-			<img class="container" src="./JavaFX-GUI-Contacts_App-1.png">
+				<p> This <a href="https://github.com/rehman000/JavaFX-Projects/tree/master/JavaFXTipCalulator">program</a> is a tip calculator, with a graphical user interface (GUI) made using JavaFX, Intellj IDEA, and Scenebuilder. The Textfield on the top is editable so the user can enter an Amount, the Textfields on the bottom for the Tip, and the Total are not editable. All the user has to do is enter an amount, set the tip percentage by moving the slider and hit the calculate button. The Prime Factor Finder works in the exact same way! </p>
 
-			<img src="./JavaFX-GUI-Contacts_App-2.png">
+
+
+				<a href="https://github.com/rehman000/JavaFX-Projects/tree/master/Mortage%20Calculator/src/sample"><img src="JavaFX-GUI-Mortage-Calculator.png"></a>
+
+				<p> This <a href="https://github.com/rehman000/JavaFX-Projects/tree/master/Mortage%20Calculator/src/sample">program</a> is a Mortage Calculator made using JDK 11, and JavaFX. Everything I learned from the Tip Calculator I expanded and applied it to the Mortage Calculator. All the user has to do is input thier purchase price, down payment, and using the slider change how many years the mortage would last, then the user would input the interest rate percentage, and hit the 'Calculate Mortage Payments' button, and the results for multiple different payment options would be printed in the textfields below. One of the biggest challenges for this project was understanding how interest and mortgages work and getting the neccesary formula to correctly implement it. </p>
+
+
+				<a href="https://github.com/rehman000/JavaFX-Projects/tree/master/Contacts_App"><img src="./JavaFX-GUI-Contacts_App-1.png" alt="JavaFX Contacts 1"></a>
+
+				<img src="./JavaFX-GUI-Contacts_App-2.png" alt="JavaFX Contacts 2">
 		
-			<img src="./JavaFX-GUI-Contacts_App-3.png">
+				<a href="https://github.com/rehman000/JavaFX-Projects/tree/master/Contacts_App"><img src="./JavaFX-GUI-Contacts_App-3.png" alt="JavaFX Contacts 3"></a>
 
-			<p>This program is a Contacts Application made using JavaFx, JDK 11, and styled using CSS, The user can upload a profile image from their computer as long as it is a <b>.jpeg</b>, or <b>.png</b> image file. Then they can enter their first name, last name, phone number, email address, along with their CUNY EMPLID number. Then the user can save this contact so that it appears on the list of contacts on the left side, which is sorted alphabetically,. If the user wants to delete a contact they can select it from the sorted list on the left by clicking it and hitting the delete button, and that contact will be removed from the list. Then when the user has decided that they have added enough contacts and want to export the information while also saving and exiting the program, they can hit the 'Export as a .txt file' button, the program will prompt the user to look for an .txt file within file explorer or Finder, and then it will overwrite the information into the text file, and terminate. </p>
+				<p>This <a href="https://github.com/rehman000/JavaFX-Projects/tree/master/Contacts_App">program</a> is a Contacts Application made using JavaFX, JDK 11, and styled using CSS, The user can upload a profile image from their computer as long as it is a <b>.jpeg</b>, or <b>.png</b> image file. Then they can enter their first name, last name, phone number, email address, along with their CUNY EMPLID number. Then the user can save this contact so that it appears on the list of contacts on the left side, which is sorted alphabetically,. If the user wants to delete a contact they can select it from the sorted list on the left by clicking it and hitting the delete button, and that contact will be removed from the list. Then when the user has decided that they have added enough contacts and want to export the information while also saving and exiting the program, they can hit the 'Export as a .txt file' button, the program will prompt the user to look for an .txt file within file explorer or Finder, and then it will overwrite the information into the text file, and terminate. </p>
 		
-			<!-- Java FX Transitions Video 1: -->
-			<video width="800" height="600" controls>
-				<source src="Video_1.mp4" type="video/mp4">
-				Your browser does not support the video tag, Try using Chrome or FireFox!
-			</video>
+				<a href="https://github.com/rehman000/JavaFX-Projects/tree/master/Extra_Credit_Rehman_Arshad/src/sample"> <img src="JavaFX-GUI-1.png"></a>
+
+				<a href="https://github.com/rehman000/JavaFX-Projects/tree/master/Extra_Credit_Rehman_Arshad/src/sample"> <img src="JavaFX-GUI-2.png"></a>
+
+				<a href="https://github.com/rehman000/JavaFX-Projects/tree/master/Extra_Credit_Rehman_Arshad/src/sample"> <img src="JavaFX-GUI-3.png"></a>
+
+				<p> This <a href="https://github.com/rehman000/JavaFX-Projects/tree/master/Extra_Credit_Rehman_Arshad/src/sample">program</a> is a a sequence of geometric stars creating by connecting certain edges to vertices. It's built on JDK 11, and JavaFX. What's interesting about is it that every time this program launches the color sequences are randomized.</p>
+
+				<!-- Java FX Transitions Video 1: -->
+				<video width="800" height="600" controls>
+					<source src="Video_1.mp4" type="video/mp4">
+					Your browser does not support the video tag, Try using Chrome or FireFox!
+				</video>
 
 
-			<!-- Java FX Transitions Video 2: -->
-			<video width="800" height="600" controls>
-				<source src="Video_2.mp4" type="video/mp4">
-				Your browser does not support the video tag, Try using Chrome or FireFox!
-			</video>
+				<!-- Java FX Transitions Video 2: -->
+				<video width="800" height="600" controls>
+					<source src="Video_2.mp4" type="video/mp4">
+					Your browser does not support the video tag, Try using Chrome or FireFox!
+				</video>
 
-			<p> This is an Animation made using Java FX, and CSS for the rectangle. As the button is pressed the animation plays! This project was the result of me just messing around with JavaFX 2D shapes, Colors, and Animations, which was not part of the required course material in our Software Design Lab class. Although it made for a really fun project! </p>
+				<p> This <a href="https://github.com/rehman000/JavaFX-Projects/tree/master/ExtraCredit_Transistions_Rehman_Arshad">program</a> is an Animation made using Java FX, and CSS for the rectangle. As the button is pressed the animation plays! This project was the result of me just messing around with JavaFX 2D shapes, Colors, and Animations, which was not part of the required course material in our Software Design Lab class. Although it made for a really fun project! </p>
+			</div>
 
+			<div>
+				<h3 class="Python"><a href=""> <a href="https://github.com/rehman000/Python-Projects"> Python GUI Projects: </a></h3>
 
-			<h3 class="Python"> Python GUI Projects: </h3>
+				<img src="./Python_GUI_Terminal_Commnands.png">
 
-			<img src="./Python_GUI_Terminal_Commnands.png">
+				<img src="./Python_Tkinter_GUI_1.png">
 
-			<img src="./Python_Tkinter_GUI_1.png">
+				<img src="./Python_Tkinter_GUI_2.png">
 
-			<img src="./Python_Tkinter_GUI_2.png">
-
-			<p> Using the Tkinter module in Python, I created a front-end GUI application that would read a text file, and graph the recurrence of certain letters, such as consonants and vowels. </p>
-			<br><br>
+				<p> Using the Tkinter module in Python, I created a front-end GUI application that would read a text file, and graph the recurrence of certain letters, such as consonants and vowels. </p>
+				<br><br>
+			</div>
 
 			<!-- <h3> House of Horrors (Early Alpha Stage) </h3>  -->
 		</div>
@@ -115,6 +135,13 @@
 			</span>
 		</div>
 	
+
+		<div id="Skills">
+			
+			
+
+		</div>
+
 
 		<div id="Contact">
 			<ul>
