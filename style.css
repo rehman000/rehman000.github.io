@@ -18,6 +18,14 @@ div {
 }
 */
 
+a {
+	color: 	green;
+}
+
+a:hover {
+	color: orange;
+}
+
 img {
 	display: block;
 	margin-left: auto;
@@ -26,7 +34,15 @@ img {
 	max-width: 100%;
 	min-width: 10%
 	height: auto;	   /* <--- This ensures that the height is automatically scaled porpotionally to the width.*/
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
 }
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
 
 
 video {
@@ -36,8 +52,18 @@ video {
 	max-width: 100%;
 	min-width: 10%;
 	height: auto;
+	opacity: 0.8;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
+video:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+video:play {
+	opacity: 1.0;
+}
 
 * {
 	margin: 0;
@@ -104,6 +130,7 @@ section {
 /* id -- Unique Identifiers  */
 
 #Profile_Img {
+	opacity: 1;
 	display: block;
 	border-radius: 50%;
 }
@@ -230,6 +257,14 @@ section {
 }
 
 .Java {
+	font-family: "Lato", Arial, sans-serif;
+	font-color: white;
+	font-size: 20px;
+	text-align: center;
+	transform: translate(-50%, 30%);
+}
+
+.Python {
 	font-family: "Lato", Arial, sans-serif;
 	font-color: white;
 	font-size: 20px;
