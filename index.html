@@ -5,105 +5,103 @@
 	<head>
 		<meta charset="utf-8">
 		<title> Rehman Arshad </title>
+
+		<!--Link HTML document to the stylesheet -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+
 	</head>
 
-	
+
 	<body>
 
-		<nav>
-			<ul>
-				<li><a href="#Profile"></a>Profile</li>
-				<li><a href="#About">About Me</a></li>
-				<li><a href="#Projects">Personal Projects</a></li>
-				<li><a href="#Interests">Interests</a></li>
-				<li><a href="#Contact">Contact</a></li>
-			</ul>
-		</nav>
+		<section>
+		
+			<nav>
+				<ul>
+					<li><a href="#Profile"></a>Profile</li>
+					<li><a href="#About">About Me</a></li>
+					<li><a href="#Projects">Personal Projects</a></li>
+					<li><a href="#Interests">Interests</a></li>
+					<li><a href="#Contact">Contact</a></li>
+				</ul>
+			</nav>
 
 
-		<div id="Profile">
-			<img src="./Passport Photo.png" alt="Profile Photo"  id="Profile_Img">
-			<h1> Rehman Arshad</h1>
-		</div>
+			<div id="Profile">
+				<h1 id = "Main_Heading"> Welcome! </h1>
+			</div>
 
+		</section>
 
 		<div id="About">
 			<span>
-				<ul>
-					<li> <h3> About Me: </h3> </li>
-					<p> I'm an undergraduate student at The City College of New York majoring in Computer Science. I have Experience in C, C++, C#, Java, and Python. I'm currently a member of the <a href="https://cunytechprep.nyc/">CUNY Tech Prep</a> Full Stack program cohort 5. The relevant courses that I have completed include Data Structures, Algorithms, and Software Design Lab.</p>
-				</ul>
+				<br><br><br><br><br><br>
+				<h2 id="About_Heading"> About Me: </h2>
+
+				<div class="Profile_Img">
+					<img src="./Passport Photo.png" width="300" height="300" alt="Profile Photo" id="Profile_Img">
+				</div>
+
+				<p> I'm an undergraduate student at The City College of New York majoring in Computer Science. I have Experience in C, C++, C#, Java, and Python. I'm currently a member of the <a href="https://cunytechprep.nyc/">CUNY Tech Prep</a> Full Stack program cohort 5. The relevant courses that I have completed include Data Structures, Algorithms, and Software Design Lab.</p>
+
 			</span>
 		</div>
 	
+
+
 	
 		<div id="Projects">
-			<h2> Personal Projects: </h2>
+			<h2 id="Project_Heading"> Personal Projects: </h2>
 
 			<h3> C++ Particle Fire Explosion: </h3>
 			
-			<br>
 			<img src="./ParticleExplosionSDL.png">
-			<br>
 
-			<video width="800" height="600" controls>
+			<video  controls>
 				<source src="Particle_Motion_SDL2.mp4" type="video/mp4">
 			</video>
 
 			<p> The particle fire explosiom is a graphical program made using C++, and the <a href="https://www.libsdl.org/index.php">SDL 2.0</a> library. The particles move in a circular pattern as the background and particle colors change over time. </p>
 	
 			<h3> Java FX GUI projects: </h3>
-			
-			<br>
+				
 			<img src="./JavaFX-GUI-TipCalculator.png">
-			<br>
-			
-			<br>
-			<img src="./JavaFX-GUI-Contacts_App-1.png">
-			<br>
+
+			<img class="container" src="./JavaFX-GUI-Contacts_App-1.png">
+
 			<img src="./JavaFX-GUI-Contacts_App-2.png">
-			<br>
-			
-			<br>
+		
 			<img src="./JavaFX-GUI-Contacts_App-3.png">
-			<br>
 		
 			<!-- Java FX Transitions Video 1: -->
 			<video width="800" height="600" controls>
 				<source src="Video_1.mp4" type="video/mp4">
-				Your browser does not support the video tag.
+				Your browser does not support the video tag, Try using Chrome or FireFox!
 			</video>
 
-			<br>
 
 			<!-- Java FX Transitions Video 2: -->
 			<video width="800" height="600" controls>
 				<source src="Video_2.mp4" type="video/mp4">
-				Your browser does not support the video tag.
+				Your browser does not support the video tag, Try using Chrome or FireFox!
 			</video>
 
-
 			<h3> Python tkinter GUI Projects: </h3>
-			<br>
+
 			<img src="./Python_GUI_Terminal_Commnands.png">
-			<br>
+
 			<img src="./Python_Tkinter_GUI_1.png">
-			<br>
+
 			<img src="./Python_Tkinter_GUI_2.png">
-			<br>
 
 			<!-- <h3> House of Horrors (Early Alpha Stage) </h3>  -->
-
-
-
-
-
 		</div>
 
 
-
 		<div id="Interests">
-			<h3> Interests: </h3>
+			<br><br><br><br><br><br>
+			<h3 id="Interest_Heading"> Personal Interests: </h3>
 			<p> My interests include playing video games, creating video-games inside the Unity game engine, and watching Anime. My favorite musical artists and composers are deadmau5, Beethoven, Fedrick Chopin, Hiroyuki Sawano, Hanz Zimmer, and Eminem. Regardless of genre I generally prefer non-vocal instrumental music as it keeps me more productive. My hobbies range from writing, to sketching, building computers, testing the limits of Gnome3 extensions in Ubuntu, trying other linux distro's, and making <a href="https://en.wikipedia.org/wiki/Voxel">voxel</a> art!</p>
 		</div>
 	
@@ -116,10 +114,9 @@
 				<li><h4> Phone no: (929)-461-8428 </h4></li>
 				<li><h4> <a href="https://www.linkedin.com/in/rehman-arshad-b96b8514b/"> Linked In </a></h4></li>
 			</ul>
-		</div>
+		</div>	
 
-		
-
+	
 	</body>
 
 
