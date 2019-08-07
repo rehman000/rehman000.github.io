@@ -51,7 +51,7 @@ img {
 /*
 img:hover {
   opacity: 1.0;
-  filter: alpha(opacity=100); /* For IE8 and earlier 
+  filter: alpha(opacity=100); /* For IE8 and earlier /
 }
 
 */
@@ -72,7 +72,7 @@ video {
 /*
 video:hover {
 	opacity: 1.0;
-	filter: alpha(opacity=100); /* For IE8 and earlier 
+	filter: alpha(opacity=100); /* For IE8 and earlier /
 }
 */
 
